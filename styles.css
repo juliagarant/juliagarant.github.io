@@ -51,3 +51,16 @@ main{
 .intro #myDIV{
   display: none;
 }
+
+/* Contact page ----------------------------------------*/
+.contactIcons{
+  list-style: none;
+}
+.contactIcons i{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#contactForm{
+  display: none;
+}
