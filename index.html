@@ -13,7 +13,7 @@
   <body>
     <header>
       <!-- img -->
-      <p class="leftNav">Portfolio</p>
+      <p class="leftNav">My Portfolio</p>
 
       <p class="name">Julia Garant 
         <i class="fa-regular fa-star"></i>
@@ -29,7 +29,27 @@
       <!-- <i class="fa-brands fa-linkedin"></i> -->
     </header>
     <main>
-      <p class="intro">Hi! I'm Julia, a developer with a passion for frontend work and some experience in UX/UI design.</p>
+      <div class="intro">
+        <p>Hi! I'm Julia, a developer with a passion for frontend work and some experience in UX/UI design.</p>
+        <button onclick="myFunction()">Keep reading</button>
+
+        <p id="myDIV">
+        This is my DIV element.
+        </p>
+      </div>
+
     </main>
+
+    <!-- Show/hide content -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
   </body>
 </html>
