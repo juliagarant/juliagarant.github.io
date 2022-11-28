@@ -9,6 +9,7 @@
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-size: 20px;
+  scroll-behavior: smooth;
 }
 
 header{
@@ -16,6 +17,8 @@ header{
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
+
+  box-shadow: 2px 3px 15px #ccc;
 }
 
 .leftNav{
@@ -30,6 +33,8 @@ header{
 
 .navLinks{
   list-style: none;
+  margin-left: auto;
+  text-align: right;
 }
 .navLinks li{
   display: inline-block;
@@ -44,12 +49,28 @@ main{
   background: aliceblue;
   padding: 1rem;
   border-radius: 1rem;
-  box-shadow: 5px 5px;
   box-shadow: 7px 7px 4px #3a4445;
+  max-width: 525px;
+  margin: auto;
 }
 
 .intro #myDIV{
   display: none;
+}
+
+.projectsIndex{
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectsIndex img{
+  min-width: 200px;
+}
+
+.bio{
+  padding: auto;
 }
 
 /* Contact page ----------------------------------------*/
