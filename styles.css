@@ -21,15 +21,11 @@ header{
   box-shadow: 2px 3px 15px #ccc;
 }
 
-.leftNav{
+/* Navbar */
+/* .leftNav{
   margin-right: auto;
 }
 
-.name{
-  margin: auto;
-  font-size: 22px;
-  font-weight: 600;
-}
 
 .navLinks{
   list-style: none;
@@ -39,6 +35,16 @@ header{
 .navLinks li{
   display: inline-block;
   padding: 0.2rem 0.5rem;
+} */
+
+.name{
+  margin: auto;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  text-align: end !important;
 }
 
 main{
@@ -67,6 +73,7 @@ main{
 
 .projectsIndex img{
   min-width: 200px;
+  padding: 0.5rem 1rem;
 }
 
 .bio{
