@@ -55,6 +55,10 @@ main{
   padding: 30px 6%;
 }
 
+h3{
+  font-size: 1.25rem;
+}
+
 .intro{
   background: aliceblue;
   padding: 1rem;
@@ -81,12 +85,22 @@ main{
   padding: 0.5rem 1rem;
 }
 
+.mockupsSection{
+  padding: 2rem 0;
+}
+
 #webDevMockup{
   margin: 15px 0;
 }
 .webDevMockupImg{
   max-width: 350px;
   box-shadow: -8px 10px 10px #dfdfdf;
+}
+@media (min-width: 768px) {
+  #webDevMockup{
+    text-align: center;
+    margin-top: 50px;
+  }
 }
 
 .bio{
