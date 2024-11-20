@@ -861,12 +861,22 @@ textarea.w-input, textarea.w-select {
   .home-subhead{
     width: auto !important;
   }
-  .paragraphl {
+  .centerdiv, .paragraphl {
     text-align: left !important;
+    max-width: 720px;  
+    margin-left: 0px !important;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .centerdiv, .paragraphl {
+    max-width: 600px;  
+  }
+
+  .w-nav-brand {
+    padding-left: 10px;
+  }
+
   .w-hidden-main, .w-hidden-medium {
     display: inherit !important;
   }
@@ -935,7 +945,23 @@ textarea.w-input, textarea.w-select {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 640px) {
+  .centerdiv, .paragraphl {
+    max-width: 500px;  
+  }
+}
+
+@media screen and (max-width: 518px) {
+  .brand.w-nav-brand{
+    margin: 0px;
+  }
+  .wrapper-title{
+    padding-top: 28vw !important;
+  }
+
+  .centerdiv, .paragraphl {
+    max-width: 400px;  
+  }
   .w-container {
     max-width: none;
   }
@@ -1411,11 +1437,7 @@ textarea.w-input, textarea.w-select {
   outline: 0;
 }
 
-@media screen and (max-width: 767px) {
-  .w-nav-brand {
-    padding-left: 10px;
-  }
-}
+
 
 .w-lightbox-backdrop {
   cursor: auto;
@@ -3108,6 +3130,15 @@ figcaption {
   text-align: right;
   padding-top: 20px;
 }
+@media screen and (max-width: 1200px) {
+  .main-h1.home{
+    font-size: 18vh;
+    line-height: 20vh;
+  }
+  .home-subhead{
+    width: 53vw;
+  }
+}
 
 @media screen and (max-width: 991px) {
   a {
@@ -3515,6 +3546,22 @@ figcaption {
   .big-link {
     font-size: 20px;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero, .container-2 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .main-h1.home{
+    padding-top: 25px;
+  }
+  .centerdiv{
+    max-width: 280px;  
+  }
+  .paragraphl{
+    display: none;
   }
 }
 
